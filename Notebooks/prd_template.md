@@ -54,7 +54,12 @@ The ISP dataset was selected after evaluating multiple datasets based on alignme
 The ISP dataset does not exhibit a significant class imbalance.  
 The `Churn` column contains 40,050 `True` values and 32,224 `False` values, suggesting that both classes are reasonably well represented.
 
-
+## Quick Evaluation Summary
+| Dataset        | Alignment | Scale  | Labeling Cost | Ethics            |
+|----------------|----------|--------|---------------|-------------------|
+| Telcom       | High     | Medium | Low           | Unclean (Data files © Original Authors)     |
+| Bank Customer Churn  | High   | High   | Low          | Clean (Apache 2.0)     |
+| ISP  | High     | High   | Low           | Clean (CC0: Public Domain)  |
 
 
 
@@ -91,12 +96,7 @@ A customer churn prediction model primarily benefits customer success and market
 
 
 
-## Quick Evaluation Summary
-| Dataset        | Alignment | Scale  | Labeling Cost | Ethics            |
-|----------------|----------|--------|---------------|-------------------|
-| Telcom       | High     | Medium | Low           | Unclean (Data files © Original Authors)     |
-| Bank Customer Churn  | High   | High   | Low          | Clean (Apache 2.0)     |
-| ISP  | High     | High   | Low           | Clean (CC0: Public Domain)  |
+
 
 ## Key dataset characteristics
 |Metric| Value|

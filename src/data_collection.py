@@ -1,0 +1,1 @@
+# Set up your classification project folder. Write a basic ingestion script to download your dataset and generate a checksum file. Save it as src/data_collection.py. This will be the first entry in your audit trail.
